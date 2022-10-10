@@ -6,12 +6,11 @@
 //
 
 #import "SFPodAObject.h"
-#import "SFPodBObject.h"
 
 @implementation SFPodAObject
 
 - (void)test{
-    NSLog(@"SFPodAObject test");
+    NSLog(@"SFPodA test method");
 }
 
 @end

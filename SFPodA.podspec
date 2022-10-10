@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SFPodA'
-  s.version          = '1.0.2'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of SFPodA.'
 
 # This description is used to generate tags and improve search results.
