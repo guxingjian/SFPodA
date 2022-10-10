@@ -1,0 +1,16 @@
+PODS:
+  - SFPodA (0.1.0)
+
+DEPENDENCIES:
+  - SFPodA (from `../`)
+
+EXTERNAL SOURCES:
+  SFPodA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SFPodA: f06b3471a9ecef8a3b66082634d10c783e9dcca2
+
+PODFILE CHECKSUM: 172a6ba43eeee9a13651aac55bc22363136d86f9
+
+COCOAPODS: 1.11.3
