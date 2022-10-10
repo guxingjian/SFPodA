@@ -5,13 +5,12 @@
 //  Created by 何庆钊 on 2022/10/10.
 //
 
-#import "SFPodAObject.h"
 #import "SFPodBObject.h"
 
-@implementation SFPodAObject
+@implementation SFPodBObject
 
 - (void)test{
-    NSLog(@"SFPodAObject test");
+    NSLog(@"SFPodBObject test");
 }
 
 @end

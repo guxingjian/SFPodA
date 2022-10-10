@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "SFPodAObject.h"
+#import "SFPodBObject.h"
 
-FOUNDATION_EXPORT double SFPodAVersionNumber;
-FOUNDATION_EXPORT const unsigned char SFPodAVersionString[];
+FOUNDATION_EXPORT double SFPodBVersionNumber;
+FOUNDATION_EXPORT const unsigned char SFPodBVersionString[];
 

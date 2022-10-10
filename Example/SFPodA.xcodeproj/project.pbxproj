@@ -58,10 +58,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84DCC944CA271671F718535D /* SFPodA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SFPodA.podspec; path = ../SFPodA.podspec; sourceTree = "<group>"; };
+		84DCC944CA271671F718535D /* SFPodA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SFPodA.podspec; path = ../SFPodA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89977F0BEF54231EF921EF6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8E3976856FD5BDB127A59465 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		89977F0BEF54231EF921EF6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8E3976856FD5BDB127A59465 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9597629396DA47E2CB75392F /* Pods_SFPodA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFPodA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EE4C229583BC3FE30C1854 /* Pods-SFPodA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFPodA_Example.release.xcconfig"; path = "Target Support Files/Pods-SFPodA_Example/Pods-SFPodA_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5506C300270CB8699124BEC /* Pods-SFPodA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFPodA_Example.debug.xcconfig"; path = "Target Support Files/Pods-SFPodA_Example/Pods-SFPodA_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				F748FC9A122FFE8186BF3419 /* Pods-SFPodA_Tests.debug.xcconfig */,
 				2F948F1BC1F57AD07F202E09 /* Pods-SFPodA_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -325,10 +325,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SFPodA_Example/Pods-SFPodA_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SFPodA/SFPodA.framework",
+				"${BUILT_PRODUCTS_DIR}/SFPodB/SFPodB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SFPodA.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SFPodB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
