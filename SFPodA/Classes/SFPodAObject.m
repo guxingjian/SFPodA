@@ -11,7 +11,7 @@
 
 - (void)test{
     NSLog(@"SFPodA test method");
-    NSLog(@"2.0.0");
+    NSLog(@"2.0.1");
 }
 
 @end
